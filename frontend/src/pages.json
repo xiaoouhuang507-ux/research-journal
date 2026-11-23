@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {"path":"pages/dashboard/index","style":{"navigationBarTitleText":"科研日记"}},
+    {"path":"pages/projects/index","style":{"navigationBarTitleText":"我的课题"}},
+    {"path":"pages/reports/index","style":{"navigationBarTitleText":"组会汇报"}},
+    {"path":"pages/tasks/index","style":{"navigationBarTitleText":"科研任务"}},
+    {"path":"pages/notes/index","style":{"navigationBarTitleText":"文献笔记"}},
+    {"path":"pages/settings/index","style":{"navigationBarTitleText":"我的"}},
+    {"path":"pages/onboarding/index","style":{"navigationBarTitleText":"课题资料"}},
+    {"path":"pages/plan/index","style":{"navigationBarTitleText":"编辑科研计划"}},
+    {"path":"pages/task-detail/index","style":{"navigationBarTitleText":"任务与进展"}},
+    {"path":"pages/report/index","style":{"navigationBarTitleText":"组会汇报"}},
+    {"path":"pages/chat/index","style":{"navigationBarTitleText":"每日科研对话","disableScroll":true}}
+  ],
+  "tabBar": {"color":"#7b8798","selectedColor":"#315fdb","backgroundColor":"#ffffff","list":[
+    {"pagePath":"pages/dashboard/index","text":"今日"},
+    {"pagePath":"pages/projects/index","text":"课题"},
+    {"pagePath":"pages/reports/index","text":"汇报"},
+    {"pagePath":"pages/settings/index","text":"我的"}
+  ]},
+  "globalStyle":{"navigationBarBackgroundColor":"#ffffff","navigationBarTextStyle":"black","backgroundColor":"#f3f6fb"}
+}

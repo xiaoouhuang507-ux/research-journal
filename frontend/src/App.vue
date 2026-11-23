@@ -1,0 +1,12 @@
+<script>
+import { startReminders, stopReminders } from './utils/reminder'
+export default { onShow() { startReminders() }, onHide() { stopReminders() } }
+</script>
+<style>
+page{background:#f3f6fb;color:#24324b;font-size:28rpx;line-height:1.6}.page{padding:28rpx 26rpx 50rpx}.card{background:#fff;border:1rpx solid #e9edf5;border-radius:22rpx;padding:28rpx;margin-bottom:22rpx;box-shadow:0 6rpx 22rpx rgba(35,58,105,.035)}
+.hero{background:linear-gradient(130deg,#244fc2,#5c83ed);color:#fff;border:0}.hero .muted{color:#e0e8ff}.hero .title{color:#fff}.title{font-size:38rpx;font-weight:700;line-height:1.4;margin-bottom:16rpx}.subtitle{font-size:30rpx;font-weight:650;margin-bottom:16rpx}.muted{font-size:24rpx;color:#7a879c}.label{display:block;font-size:25rpx;font-weight:600;margin:20rpx 0 10rpx}.eyebrow{font-size:23rpx;letter-spacing:3rpx;margin-bottom:12rpx}
+button{font-size:28rpx;border-radius:14rpx;margin-top:16rpx;line-height:2.7;background:#edf2fb;color:#315bc6}button::after{border:0}.primary{background:#315fdb;color:#fff}.secondary{background:#eaf0ff;color:#315fdb}.danger{color:#bf4350}.link{color:#315fdb;font-size:25rpx}.actions{display:flex;gap:14rpx;flex-wrap:wrap;margin-top:12rpx}.actions button{flex:1;min-width:180rpx}.between{display:flex;justify-content:space-between;align-items:center;gap:18rpx}
+input,textarea,.picker{background:#f4f6fa;border:1rpx solid #e7ebf3;border-radius:12rpx;padding:18rpx 20rpx;margin-bottom:12rpx;width:100%;box-sizing:border-box;font-size:27rpx;color:#24324b}textarea{height:160rpx;line-height:1.6}.picker{min-height:78rpx}.error{background:#fff1f0;color:#b13943;border:1rpx solid #f5d2d4}.notice{background:#edf3ff;color:#315aab;padding:20rpx;border-radius:14rpx;margin-bottom:20rpx;font-size:25rpx}.tag{display:inline-block;background:#edf2fb;color:#466085;border-radius:9rpx;padding:3rpx 12rpx;font-size:22rpx}.warning{color:#b65e21;background:#fff5e9;padding:18rpx;border-radius:12rpx;margin-top:14rpx}.empty{text-align:center;padding:42rpx 22rpx}.divider{border-top:1rpx solid #edf0f5;margin:22rpx 0}.progress{height:10rpx;background:#eaf0f8;border-radius:8rpx;overflow:hidden;margin:18rpx 0}.bar{height:100%;background:#557ce2;border-radius:8rpx}.prewrap{white-space:pre-wrap;word-break:break-word}.fixed-footer{position:sticky;bottom:0;background:#f3f6fb;padding:12rpx 0 20rpx}
+/* Native single-line inputs need an explicit height; vertical padding clips their text. */
+input{height:88rpx;min-height:88rpx;padding:0 20rpx;line-height:normal}
+</style>

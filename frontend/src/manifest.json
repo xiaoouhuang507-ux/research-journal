@@ -1,0 +1,15 @@
+{
+  "name": "科研智助Agent",
+  "appid": "touristappid",
+  "description": "课题背景、每日AI对话与组会汇报",
+  "versionName": "3.0.0",
+  "versionCode": "300",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "touristappid",
+    "setting": {
+      "urlCheck": false,
+      "es6": true
+    }
+  }
+}

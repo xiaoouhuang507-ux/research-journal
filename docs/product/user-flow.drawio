@@ -1,0 +1,236 @@
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="research-journal-core" name="核心用户流程">
+    <mxGraphModel dx="0" dy="0" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1540" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="stage-bg-0" value="" style="rounded=1;arcSize=3;fillColor=#F5F8FD;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="140" width="610" height="1310" />
+        </mxCell>
+        <mxCell id="stage-title-0" value="01  建立课题背景" style="text;html=0;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;align=left;fontColor=#253A59;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="62" y="158" width="566" height="36" />
+        </mxCell>
+        <mxCell id="stage-bg-1" value="" style="rounded=1;arcSize=3;fillColor=#F7F6FC;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="680" y="140" width="470" height="1310" />
+        </mxCell>
+        <mxCell id="stage-title-1" value="02  每日科研对话" style="text;html=0;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;align=left;fontColor=#253A59;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="702" y="158" width="426" height="36" />
+        </mxCell>
+        <mxCell id="stage-bg-2" value="" style="rounded=1;arcSize=3;fillColor=#F4F9F7;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="140" width="680" height="1310" />
+        </mxCell>
+        <mxCell id="stage-title-2" value="03  生成组会汇报" style="text;html=0;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;align=left;fontColor=#253A59;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1202" y="158" width="636" height="36" />
+        </mxCell>
+        <mxCell id="title" value="科研日记 · 核心用户流程" style="text;html=0;fontFamily=Microsoft YaHei;fontSize=30;fontStyle=1;align=left;strokeColor=none;fillColor=none;fontColor=#203551;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="32" width="1400" height="48" />
+        </mxCell>
+        <mxCell id="subtitle" value="从课题背景与每日对话，形成可核对、可编辑、可回看的组会汇报" style="text;html=0;fontFamily=Microsoft YaHei;fontSize=17;align=left;strokeColor=none;fillColor=none;fontColor=#60718B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="47" y="89" width="1500" height="30" />
+        </mxCell>
+        <mxCell id="edge-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="start" target="has-project" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="has-project" target="form" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-15" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-2" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="has-project" target="current" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-15" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="form" target="reference" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="reference" target="create" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="create" target="chat" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="current" target="chat" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-7" value="现在聊聊" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" source="reminder" target="chat" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1145" y="302.5" />
+              <mxPoint x="1145" y="635" />
+            </Array>
+            <mxPoint as="offset" x="-42" y="-15" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="chat" target="input" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="input" target="persist" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="persist" target="ai" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-11" value="成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="ai" target="continue" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="27" y="0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-12" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="ai" target="ai-fail" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="690" y="1022.5" />
+              <mxPoint x="690" y="1035" />
+            </Array>
+            <mxPoint as="offset" x="0" y="-15" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-13" value="重试" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="ai-fail" target="ai" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="470" y="947" />
+              <mxPoint x="725" y="947" />
+              <mxPoint x="725" y="996.25" />
+            </Array>
+            <mxPoint as="offset" x="0" y="-16" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-14" value="是，继续补充" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="continue" target="input" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1110" y="1180" />
+              <mxPoint x="1110" y="780" />
+            </Array>
+            <mxPoint as="offset" x="-10" y="-155" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-15" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="continue" target="daily-finish" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-15" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-16" value="准备组会时" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="daily-finish" target="report-entry" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1170" y="1335" />
+              <mxPoint x="1170" y="635" />
+            </Array>
+            <mxPoint as="offset" x="25" y="125" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="report-entry" target="has-sources" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-18" value="无" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="has-sources" target="no-sources" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-15" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-19" value="调整日期" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="no-sources" target="report-entry" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1850" y="795" />
+              <mxPoint x="1850" y="635" />
+            </Array>
+            <mxPoint as="offset" x="0" y="-15" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-20" value="有" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="has-sources" target="draft" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-15" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="draft" target="review" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="review" target="save-report" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="save-report" target="history" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#687B94;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4C607B;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="history" target="finish" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="start" value="打开小程序" style="ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fillColor=#294F87;strokeColor=#294F87;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="214" width="190" height="52" />
+        </mxCell>
+        <mxCell id="has-project" value="是否已有课题？" style="rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#263B57;fillColor=#FFF5DF;strokeColor=#C3A46A;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="375" y="190" width="190" height="100" />
+        </mxCell>
+        <mxCell id="form" value="填写课题名称&#10;研究主题、具体方向" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#263B57;fillColor=#EAF1FF;strokeColor=#6888BF;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="350" width="270" height="78" />
+        </mxCell>
+        <mxCell id="reference" value="补充参考文献（可选）&#10;上传 PDF，自动提取标题与正文&#10;或手动录入；也可稍后补充" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#EAF1FF;strokeColor=#6888BF;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="460" width="270" height="100" />
+        </mxCell>
+        <mxCell id="create" value="保存并创建课题&#10;自动进入每日对话" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#263B57;fillColor=#EAF5F0;strokeColor=#79A38B;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="600" width="270" height="70" />
+        </mxCell>
+        <mxCell id="current" value="进入当前课题&#10;需要时在“课题”中切换" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#263B57;fillColor=#EAF1FF;strokeColor=#6888BF;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="205" width="270" height="70" />
+        </mxCell>
+        <mxCell id="chat" value="打开每日科研对话&#10;默认今天，也可选日期补记" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#263B57;fillColor=#EAF1FF;strokeColor=#6888BF;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="600" width="270" height="70" />
+        </mxCell>
+        <mxCell id="input" value="简短输入今天做了什么&#10;文献阅读、实验、问题或无进展" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#EAF1FF;strokeColor=#6888BF;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="740" width="270" height="80" />
+        </mxCell>
+        <mxCell id="persist" value="先保存用户发言&#10;与当前课题、记录日期关联" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#EAF5F0;strokeColor=#79A38B;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="860" width="270" height="68" />
+        </mxCell>
+        <mxCell id="ai" value="AI 结合课题、历史与相关文献&#10;理解当日进展并追问&#10;PDF 正文引用注明文献与页码" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#F0EBFA;strokeColor=#9481B6;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="970" width="270" height="105" />
+        </mxCell>
+        <mxCell id="continue" value="用户是否继续补充？" style="rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#FFF5DF;strokeColor=#C3A46A;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="805" y="1130" width="200" height="100" />
+        </mxCell>
+        <mxCell id="daily-finish" value="结束当次记录&#10;按天保存，可返回回看或继续" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#EAF5F0;strokeColor=#79A38B;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="1300" width="270" height="70" />
+        </mxCell>
+        <mxCell id="ai-fail" value="AI 回复失败&#10;用户发言已保存&#10;点击“重试回复”后继续" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#FFF2E8;strokeColor=#CF9D72;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="985" width="270" height="100" />
+        </mxCell>
+        <mxCell id="report-entry" value="组会前进入汇报&#10;选择起止日期并点击生成" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#263B57;fillColor=#EAF1FF;strokeColor=#6888BF;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="600" width="270" height="70" />
+        </mxCell>
+        <mxCell id="has-sources" value="所选日期内&#10;是否有用户对话？" style="rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#FFF5DF;strokeColor=#C3A46A;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1295" y="745" width="200" height="100" />
+        </mxCell>
+        <mxCell id="no-sources" value="显示“0 条来源”&#10;提示调整日期或先补记&#10;不编造期间成果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#FFF2E8;strokeColor=#CF9D72;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1580" y="745" width="250" height="100" />
+        </mxCell>
+        <mxCell id="draft" value="AI 生成可编辑的汇报草稿&#10;只依据当前课题、期间用户发言&#10;附来源，不把计划写成成果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#F0EBFA;strokeColor=#9481B6;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="890" width="270" height="100" />
+        </mxCell>
+        <mxCell id="review" value="用户核对事实与来源&#10;查看原对话，编辑汇报内容" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#EAF1FF;strokeColor=#6888BF;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="1030" width="270" height="75" />
+        </mxCell>
+        <mxCell id="save-report" value="确认保存当前编辑内容" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#263B57;fillColor=#EAF5F0;strokeColor=#79A38B;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="1145" width="270" height="65" />
+        </mxCell>
+        <mxCell id="history" value="历史汇报可回看、复制&#10;再次编辑会保存为新版本" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#EAF5F0;strokeColor=#79A38B;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="1250" width="270" height="75" />
+        </mxCell>
+        <mxCell id="finish" value="本次汇报完成" style="ellipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#FFFFFF;fillColor=#294F87;strokeColor=#294F87;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1300" y="1380" width="190" height="52" />
+        </mxCell>
+        <mxCell id="reminder" value="每日提醒（可选支线）&#10;“我的”中设置开关与时间，默认每天 20:00&#10;开启且到点、今日未记录时，前台显示提示&#10;用户点击“现在聊聊”进入当前课题对话&#10;当日已记录或已提示，不再重复&#10;微信外部提醒尚未配置" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#263B57;fillColor=#F4F6F9;strokeColor=#A4AEBC;strokeWidth=1.4;align=center;verticalAlign=middle;spacing=8;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1230" y="205" width="550" height="195" />
+        </mxCell>
+        <mxCell id="note-upload" value="上传异常：保留课题输入&#10;换用可读 PDF，或稍后补充" style="text;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;align=left;verticalAlign=middle;spacing=8;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="470" width="240" height="85" />
+        </mxCell>
+        <mxCell id="note-entry" value="汇报也可从“今日”、对话页或&#10;“汇报”页随时进入；无需先结束对话" style="text;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;align=left;verticalAlign=middle;spacing=8;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1230" y="460" width="550" height="75" />
+        </mxCell>
+        <mxCell id="note-scope" value="图示范围&#10;核心创建、记录与汇报闭环&#10;课题管理、删除和连接配置&#10;作为辅助流程另行整理" style="text;whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#64748B;align=left;verticalAlign=middle;spacing=8;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="90" y="1170" width="505" height="150" />
+        </mxCell>
+        <mxCell id="footer" value="基于现有 Demo 页面与逻辑整理  ·  2026-10-22  ·  蓝：用户操作   紫：AI 处理   绿：记录保存   菱形：条件判断   虚线：可选支线" style="text;html=0;fontFamily=Microsoft YaHei;fontSize=15;align=left;strokeColor=none;fillColor=none;fontColor=#697A91;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1470" width="1810" height="35" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

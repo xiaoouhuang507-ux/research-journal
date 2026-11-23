@@ -1,0 +1,20 @@
+{
+  "name": "research-agent-miniapp",
+  "version": "3.0.0",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "node scripts/build-weixin.cjs build",
+    "build:preview": "node scripts/build-weixin.cjs dev",
+    "test:ui": "node --test tests/product-flows.test.cjs",
+    "test:mp-weixin": "node --test tests/miniapp-projects.test.cjs tests/pdf-upload.test.cjs"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-4060620250520001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-4060620250520001",
+    "vue": "3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/vite-plugin-uni": "3.0.0-4060620250520001",
+    "vite": "5.2.8"
+  }
+}
